@@ -1,2 +1,4 @@
-const numero = 20;
-console.log(numero);
+const                  numero = 20
+
+console.log(numero)
+console.log("oi")
