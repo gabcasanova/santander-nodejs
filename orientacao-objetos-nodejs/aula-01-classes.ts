@@ -1,4 +1,4 @@
-type Produto = {
+export type Produto = {
     nome: string,
     valor: number
 }
@@ -15,7 +15,7 @@ type Produto = {
     }
 }*/
 
-class Estabelecimento {
+class EstabelecimentoBase {
     private _filaDeEspera = 10
 
     constructor(
@@ -71,7 +71,7 @@ const padaria = {
     }
 }
 
-const padaria3 = new Estabelecimento(
+const padaria3 = new EstabelecimentoBase(
     'Rua dos Abomináveis 323 - bloco D', 
     'alimentação' , 
     [
