@@ -5,7 +5,7 @@
     "luxon": "^3.5.0"
   },
   "scripts": {
-    "dev": "tsnd introducao-express/hello-world.ts"
+    "dev": "tsnd server.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
